@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", sans-serif;
+}
+body {
+    background-image: url(images/fond.png);
+    font-size: medium;
+    
+}
+
+header {
+    background-color: rgb(184, 203, 33);
+    width: 70%;
+    height: 130px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+nav {
+    float: right;
+}
+
+header nav ul li {
+  display: inline-block; 
+  padding: 45px 25px;   
+}
+
+header nav ul li a {
+    color: rgb(45, 71, 35);
+    text-transform: uppercase;
+    font-size: bold;
+    
+}
+main {
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: -7px;
+    height: auto;
+    background-size: cover;
+    
+}
+.image {
+    float: left;
+    width: 200px;
+    height: 100px;
+    padding-left: 20px;
+}
+h2 {   
+    text-indent: .6em;  
+    text-transform: uppercase;
+    color: rgb(184, 203, 33);
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-top: 10px;
+    padding-left: 20px;
+
+}
+
+button {
+    float: right;
+    padding: 10px;
+    background-color: rgb(184, 203, 33);
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+    margin-right: 30px;
+}
+ul {
+    padding-left: 30px;
+}
+section {
+    padding-bottom: 50px;
+}
+
+.logo__wAcademy {
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+button:hover {
+   color:rgb(184, 203, 33);
+   background-color: rgb(45, 71, 35);
+}
+
+.center {
+    text-align: center;
+}
